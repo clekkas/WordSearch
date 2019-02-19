@@ -12,6 +12,8 @@
 		52B52C142219DA7800ADBA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B52C122219DA7800ADBA28 /* Main.storyboard */; };
 		52B52C162219DA7A00ADBA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B52C152219DA7A00ADBA28 /* Assets.xcassets */; };
 		52B52C192219DA7A00ADBA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B52C172219DA7A00ADBA28 /* LaunchScreen.storyboard */; };
+		52B52C212219DB0A00ADBA28 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B52C202219DB0900ADBA28 /* WordSearch.swift */; };
+		52B52C23221A8AEF00ADBA28 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 52B52C22221A8AEF00ADBA28 /* capitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		52B52C152219DA7A00ADBA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B52C182219DA7A00ADBA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B52C1A2219DA7A00ADBA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B52C202219DB0900ADBA28 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
+		52B52C22221A8AEF00ADBA28 /* capitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		52B52C0D2219DA7800ADBA28 /* Word Search */ = {
 			isa = PBXGroup;
 			children = (
+				52B52C202219DB0900ADBA28 /* WordSearch.swift */,
 				52B52C0E2219DA7800ADBA28 /* AppDelegate.swift */,
 				52B52C102219DA7800ADBA28 /* ViewController.swift */,
 				52B52C122219DA7800ADBA28 /* Main.storyboard */,
 				52B52C152219DA7A00ADBA28 /* Assets.xcassets */,
 				52B52C172219DA7A00ADBA28 /* LaunchScreen.storyboard */,
 				52B52C1A2219DA7A00ADBA28 /* Info.plist */,
+				52B52C22221A8AEF00ADBA28 /* capitals.json */,
 			);
 			path = "Word Search";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				52B52C192219DA7A00ADBA28 /* LaunchScreen.storyboard in Resources */,
 				52B52C162219DA7A00ADBA28 /* Assets.xcassets in Resources */,
+				52B52C23221A8AEF00ADBA28 /* capitals.json in Resources */,
 				52B52C142219DA7800ADBA28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				52B52C112219DA7800ADBA28 /* ViewController.swift in Sources */,
 				52B52C0F2219DA7800ADBA28 /* AppDelegate.swift in Sources */,
+				52B52C212219DB0A00ADBA28 /* WordSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
